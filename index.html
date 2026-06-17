@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Sharing Network</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🍽 Recipe Sharing Network</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Recipes</a>
+            <a href="#">Meal Planner</a>
+            <a href="#">Profile</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Discover Amazing Recipes</h2>
+        <p>Find recipes using ingredients you already have.</p>
+
+        <input type="text" id="ingredientInput"
+            placeholder="Enter ingredients (e.g., tomato, onion)">
+        <button onclick="searchRecipe()">Search</button>
+    </section>
+
+    <section class="recipes">
+        <h2>Popular Recipes</h2>
+
+        <div class="recipe-card">
+            <img src="https://via.placeholder.com/250" alt="">
+            <h3>Pasta</h3>
+            <p>Easy Italian pasta recipe.</p>
+        </div>
+
+        <div class="recipe-card">
+            <img src="https://via.placeholder.com/250" alt="">
+            <h3>Veg Biryani</h3>
+            <p>Healthy homemade biryani.</p>
+        </div>
+
+        <div class="recipe-card">
+            <img src="https://via.placeholder.com/250" alt="">
+            <h3>Fruit Salad</h3>
+            <p>Fresh and nutritious.</p>
+        </div>
+    </section>
+
+    <section class="meal-planner">
+        <h2>Weekly Meal Planner</h2>
+
+        <div class="days">
+            <div>Monday</div>
+            <div>Tuesday</div>
+            <div>Wednesday</div>
+            <div>Thursday</div>
+            <div>Friday</div>
+            <div>Saturday</div>
+            <div>Sunday</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Recipe Sharing Network</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
